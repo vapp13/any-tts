@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Speech</title>
+</head>
+<body>
+  <h1>Text to Speech Generator</h1>
+  <form id="ttsForm">
+    <textarea id="textInput" placeholder="Enter text here..."></textarea>
+    <select id="voiceSelect">
+      <option value="voice1">Voice 1</option>
+      <option value="voice2">Voice 2</option>
+      <!-- Add more options -->
+    </select>
+    <button type="button" id="generateButton">Generate Audio</button>
+  </form>
+  <audio id="audioPlayer" controls></audio>
+  <button id="downloadButton">Download</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
